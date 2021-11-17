@@ -1,0 +1,584 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a, a:hover{
+	text-decoration: none;
+}
+ul{
+	padding-left: 0;
+}
+img{
+	width: 100%;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.3;
+}
+input:focus{
+	background: transparent !important;
+	box-shadow: 0px 0px 0px 0px #fff !important;
+}
+
+/**************  global css code start  *********************/
+.padding-right{
+	padding-right: 50px;
+}
+.padding-left{
+	padding-left: 50px;
+}
+.margin-top{
+	margin-top: 25px;
+}
+.mt{
+	margin-top: -100px;
+}
+.gap{
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+.myp{
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 600;
+	color: rgba(255,255,255,0.5);
+}
+.myh2{
+	font-size: 88px;
+	line-height: 88px;
+	font-weight: 800;
+	color: #fff;
+	margin-bottom: 50px;
+}
+.myh3{
+	font-size: 58px;
+	line-height: 64px;
+	font-weight: 800;
+	color: #1d2152;
+	margin-bottom: 50px;
+}
+.myh6{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.mobile-display{
+	display: none;
+}
+.desktop-display{
+	display: block;
+}
+/**************  global css code end  *********************/
+
+/**************  banner css code start  *********************/
+
+.bg-light{
+	background: transparent !important;
+}
+
+.banner{
+	width: 100%;
+	background: url(../img/banner.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.navbar{
+	padding: 40px 0;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	transition: .5s;
+	z-index: 9999;
+}
+.navbar-bg{
+	padding: 10px 0;
+	background: #1D2152 !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #CAABB0 !important;
+}
+
+
+.banner-inner{
+	padding-top: 170px;
+	padding-bottom: 30px;
+}
+.banner-inner h1{
+	font-size: 110px;
+	line-height: 110px;
+	font-weight: 800;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.banner-inner p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.banner-inner a{
+	display: block;
+	text-align: center;
+}
+.banner-inner a i{
+	font-size: 32px;
+	line-height: 32px;
+	color: #fff;
+	transition: .5s;
+}
+.banner-inner a i:hover{
+	transform: translatey(10px);
+}
+
+
+
+/**************  banner css code end  *********************/
+
+
+/**************  about css code start  *********************/
+
+.about{
+	width: 100%;
+	background: url(../img/about-bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+.about-inner h4{
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.about-item .myh6{
+	text-align: center;
+}
+.video{
+	width: 100%;
+	box-shadow: 0px 0px 30px 4px #121533;
+}
+.video video{
+	width: 100%;
+}
+.speaker-top{
+	padding: 200px 0;
+	text-align: center;
+}
+.after{
+	width: 60px;
+	height: 2px;
+	border-radius: 1px;
+	background: #D02326;
+	margin: auto;
+}
+
+/**************  about css code end  *********************/
+
+/**************  speaker css code start  *********************/
+
+.speaker{
+	width: 100%;
+	background: #fff;
+}
+
+.speaker-inner{
+	width: 100%;
+	position: relative;
+}
+.speaker-inner h4{
+	position: absolute;
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #D02326;
+    margin-left: 35px;
+    margin-top: -110px;
+}
+.before{
+	width: 3px;
+	height: 90px;
+	background: #F3F3F3;
+	margin: 20px auto;
+}
+.view-all{
+	text-align: center;
+	padding-bottom: 150px;
+}
+.view-all a{
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 700;
+	color: #0a0a0a;
+	text-transform: uppercase;
+}
+
+/**************  speaker css code end  *********************/
+
+/**************  feature css code start  *********************/
+
+.feature{
+	width: 100%;
+	background: #1D2152;
+	position: relative;
+}
+.feature-inner{
+	text-align: center;
+}
+.feature-bg{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../img/feature-bg.jpg);
+	background-size: cover;
+}
+/**************  feature css code end  *********************/
+/**************  partner css code start  *********************/
+
+.partner{
+	width: 100%;
+	background: #fff;
+}
+.partner .myh6{
+	color: #1D2152;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/**************  partner css code end  *********************/
+/**************  pricing css code start  *********************/
+.pricing{
+	width: 100%;
+	background: #F4F4F4;
+}
+.pricing-inner{
+	padding-top: 100px;
+}
+.pricing-inner .myp{
+	color: #727272;
+}
+.pricing-form{
+	text-align: center;
+	background: #fff;
+	padding: 50px;
+}
+.pricing-form .myh6{
+	color: #000;
+}
+.pricing-form .myh2{
+	font-size: 58px;
+	margin-bottom: 10px;
+	line-height: 58px;
+	color: #D12326;
+}
+.pricing-option{
+	margin: 30px 0;
+}
+.pricing-option li{
+	list-style-type: none;
+	display: block;
+}
+.pricing-option li a{
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #000;
+	text-transform: capitalize;
+}
+.pricing-option li a:hover{
+	color: #1D2152;
+}
+.pricing-option li a i{
+	color: #DDDDDD;
+}
+.pricing-form .btn-success{
+	display: block;
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #fff;
+	background: #1d2152;
+}
+.pricing-form .btn-success:hover{
+	background: #1D2152;
+}
+/**************  pricing css code end  *********************/
+/**************  join css code start  *********************/
+
+.join{
+	width: 100%;
+	background: url(../img/join-bg.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 200px 0;
+	text-align: right;
+}
+.join .myh3{
+	color: #fff;
+	margin-bottom: 70px;
+	text-align: center;
+}
+.join-form{
+	width: 80%;
+	margin: auto;
+}
+.form-control{
+	width: 100%;
+	margin: auto;
+	background: transparent;
+	border: 0px;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	padding: 20px;
+	color: #fff !important;
+}
+.join-form .btn{
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 20px 30px;
+	background: #D02326;
+	margin-top: 20px;
+}
+/**************  join css code end  *********************/
+/**************  footer css code start  *********************/
+
+.footer{
+	width: 100%;
+	background: #1D2152;
+	text-align: center;
+}
+.social-icons ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 10px;
+}
+.social-icons ul li a i{
+	font-size: 20px;
+	color: #fff;
+}
+/**************  footer css code end  *********************/
+
+.scrollup{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	background: red;
+	border-color: red;
+	color: #fff;
+}
+
+/*************** media query css start  ***********************/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	.mobile-display{
+		display: block;
+	}
+	.desktop-display{
+		display: none;
+	}
+	.navbar-brand img{
+		width: 80%;
+	}
+	.navbar-light .navbar-toggler{
+		background: #fff;
+	}
+	.navbar-toggler-icon{
+		width: 20px;
+		height: 20px;
+	}
+	.navbar-nav{
+		text-align: center;
+		background: #1D2151;
+		padding: 20px 0;
+	}
+	.banner-inner h1{
+		font-size: 48px;
+		line-height: 55px;
+	}
+	.banner-inner p{
+		font-size: 15px;
+	}
+	.padding-left{
+		padding-left: 0;
+	}
+	.about-item{
+		margin-bottom: 30px;
+	}
+	.speaker-top{
+		padding: 120px 0;
+	}
+	.myh2{
+		font-size: 45px;
+    	line-height: 52px;
+	}
+	.mt{
+		margin-top: 25px;
+	}
+	.speaker-inner h4{
+		font-size: 35px;
+    	line-height: 40px;
+
+	}
+	.feature-bg{
+		display: none;
+	}
+	.partner .myh6{
+		margin-bottom: 0;
+	}
+	.partner .margin-top{
+		margin-top: 0;
+	}
+	.pricing-inner{
+		padding-top: 0;
+	}
+	.pricing .col-md-4{
+		margin-top: 20px;
+	}
+	.myh3{
+		font-size: 44px;
+		line-height: 50px;
+	}
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+	.mobile-display{
+		display: block;
+	}
+	.desktop-display{
+		display: none;
+	}
+	.navbar-brand img{
+		width: 80%;
+	}
+	.navbar-light .navbar-toggler{
+		background: #fff;
+	}
+	.navbar-toggler-icon{
+		width: 20px;
+		height: 20px;
+	}
+	.navbar-nav{
+		text-align: center;
+		background: #1D2151;
+		padding: 20px 0;
+	}
+	.banner-inner h1{
+		font-size: 72px;
+    	line-height: 80px;
+	}
+	.padding-left{
+		padding-left: 0;
+	}
+	.about-item{
+		margin-bottom: 30px;
+	}
+	.speaker-top{
+		padding: 120px 0;
+	}
+	.myh2{
+		font-size: 60px;
+   		line-height: 66px;
+	}
+	.mt{
+		margin-top: 25px;
+	}
+	.feature-bg{
+		display: none;
+	}
+	.partner .myh6{
+		margin-bottom: 0;
+	}
+	.partner .margin-top{
+		margin-top: 0;
+	}
+	.pricing-inner{
+		padding-top: 0;
+	}
+	.pricing .col-md-4{
+		margin-top: 20px;
+	}
+	.myh3{
+		font-size: 44px;
+		line-height: 50px;
+	}
+
+	
+
+
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads   ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+	.mobile-display{
+		display: block;
+	}
+	.desktop-display{
+		display: none;
+	}
+	.navbar-light .navbar-toggler{
+		background: #fff;
+	}
+	
+	.navbar-nav{
+		text-align: center;
+		background: #1D2151;
+		padding: 20px 0;
+	}
+	.padding-left{
+		padding-left: 0;
+	}
+	.myh2{
+		font-size: 60px;
+   		line-height: 66px;
+	}
+	.pricing .col-md-8 , .pricing .col-md-4{
+		width: 50%;
+	}
+	.pricing-inner{
+		padding-top: 0;
+	}
+	.myh3{
+		font-size: 50px;
+		line-height: 58px;
+	}
+	
+
+  
+}
